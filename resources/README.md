@@ -3,28 +3,25 @@ Resources
 
 This folder contains the resources of the slides:
 
-*   `extjs-4.1.1/`
+*   `extjs-4.2.1.883/`
     
-    This is the GPL version of Ext JS from Sencha in version 4.1.1 
+    This is the GPL version of Ext JS from Sencha in version 4.2.1 
     (http://www.sencha.com/products/extjs/) as it can be downloaded from the 
-    official products page with one exception: The `docs` folder is stripped so
+    official products page (last access 2013-07-19) with one exception: The `docs` folder is stripped so
     this repository isn't so bloated.
     
-*   `geoext-geoext2-aef9c2a/`
+*   `geoext2-2.0.0/`
     
-    This is GeoExt 2 (http://geoext.github.com/geoext2/, http://geoetx.org/) 
-    obtained from the official github repository with the `HEAD` being 
-    https://github.com/geoext/geoext2/commit/aef9c2a5a05e387e999495339051145ce27c4a5b
+    This is GeoExt 2 (http://geoext.github.io/geoext2/, http://geoetx.org/) 
+    obtained from the official github repository under https://github.com/geoext/geoext2/releases/tag/v2.0.0
     
-*   `imakewebthings-deck.js-069f632/`
+*   `deck.js-latest/`
     
     This is deck.js (http://imakewebthings.com/deck.js/) obtained from the 
-    official github repository with the `HEAD` being 
-    https://github.com/imakewebthings/deck.js/tree/069f63294abe8c2bfd0e3c9b34d26090802c4f46
+    official download site https://github.com/imakewebthings/deck.js/archive/latest.zip (last access 2014-03-12)
     
-*   `openlayers-openlayers-ec26dd6/`
+*   `OpenLayers-2.13.1/`
     
-    This is OpenLayers (http://openlayers.org) obtained from the official github
-    repository with the `HEAD` being 
-    https://github.com/openlayers/openlayers/commit/ec26dd656413a07525ec961712264d651fd9e7c8
+    This is OpenLayers (http://openlayers.org) in version 2.13.1 obtained from the official
+	download site http://openlayers.org/download/OpenLayers-2.13.1.zip (last access 2013-07-22)
 
