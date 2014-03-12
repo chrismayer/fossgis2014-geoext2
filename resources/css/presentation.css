@@ -84,6 +84,25 @@ pre {
 
 /* slide-specific styles */
 
+#author-title {
+	position: absolute;
+    top: 700px;
+    right:  2%;
+    font-size: 40px;
+    font-weight: bold;
+    color: #444;
+    /* font-family: "LMSansDemiCond10", sans-serif; */
+}
+
+#date-title {
+	position: absolute;
+    bottom: 2%;
+    left:  2%;
+    font-size: 19px;
+    color: rgb(136, 136, 136);
+    /* font-family: "LMSansDemiCond10", sans-serif; */
+}
+
 #about-isb .sideimage-right {
 	width: 300px;
 	top: 120px;
@@ -94,7 +113,6 @@ pre {
 	height: 90%;
 }
 
-.geoext2-future-title-centerimage {
-	top: 50%;
-}
+.title-logo {
+	margin-top: 200px;
 }
