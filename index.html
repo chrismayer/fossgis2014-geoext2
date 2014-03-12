@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=1024, user-scalable=no">
+
+<title>GeoExt 2</title>
+
+<!-- Required stylesheet -->
+<link rel="stylesheet" media="screen"
+	href="resources/deck.js-latest/core/deck.core.css">
+
+<!-- Extension CSS files go here. Remove or add as needed. -->
+<link rel="stylesheet" media="screen"
+	href="resources/deck.js-latest/extensions/goto/deck.goto.css">
+<link rel="stylesheet" media="screen"
+	href="resources/deck.js-latest/extensions/menu/deck.menu.css">
+<link rel="stylesheet" media="screen"
+	href="resources/deck.js-latest/extensions/navigation/deck.navigation.css">
+<link rel="stylesheet" media="screen"
+	href="resources/deck.js-latest/extensions/status/deck.status.css">
+<link rel="stylesheet" media="screen"
+	href="resources/deck.js-latest/extensions/scale/deck.scale.css">
+
+<!-- Style theme. More available in /themes/style/ or create your own. -->
+<!--  
+  <link rel="stylesheet" media="screen" href="resources/deck.js-latest/themes/style/web-2.0.css">
+  -->
+<!--  -->
+<link rel="stylesheet" media="screen"
+	href="resources/deck.js-latest/themes/style/swiss.css">
+
+<!--  -->
+<link rel="stylesheet" media="screen"
+	href="resources/css/presentation.css">
+
+<!-- Transition theme. More available in /themes/transition/ or create your own. -->
+<link rel="stylesheet" media="screen"
+	href="resources/deck.js-latest/themes/transition/horizontal-slide.css">
+
+<!-- Basic black and white print styles -->
+<link rel="stylesheet" media="print"
+	href="resources/deck.js-latest/core/print.css">
+
+<!-- Required Modernizr file -->
+<script src="resources/deck.js-latest/modernizr.custom.js"></script>
+</head>
+<body>
+	<div class="deck-container">
+
+		<!-- Begin slides. Just make elements with a class of slide. -->
+
+		<section class="slide">
+			<h1>GeoExt 2</h1>
+			<h2>Was ist neu und was bringt die Zukunft?</h2>
+			<div style="bottom: 20px;">
+				<img alt="GeoExt Logo" src="resources/img/GeoExt_Logo-786x234.png"
+					width="400">
+			</div>
+		</section>
+
+		<div class="slide" id="about-me">
+			<h2>Über mich</h2>
+			<ul>
+				<li>Anwendungsentwickler <a href="http://www.isb-ag.de/">ISB
+						AG</a></li>
+				<ul>
+					<li>Team Umwelt / GIS</li>
+					<li>Webmapping, GDI</li>
+					<li>Geoportale, INSPIRE</li>
+				</ul>
+				<li>Open Source GIS</li>
+				<ul>
+					<li>Kernentwickler GeoExt2</li>
+					<li>Kernentwickler GeoExt Mobile (GXM)</li>
+					<li>Kernentwickler SHOGun</li>
+				</ul>
+				<li>Blogger</li>
+				<ul>
+					<li><a href="http://meggsimum.de">www.meggsimum.de</a></li>
+				</ul>
+			</ul>
+			<img src="./resources/img/placeholder.gif" class="sideimage-right"
+				alt="Christian Mayer">
+		</div>
+
+		<div class="slide" id="about-isb">
+			<h2>ISB AG</h2>
+			<ul>
+				<li>Hauptsitz in Karlsruhe</li>
+				<li>Niederlassungen in Mainz, Stuttgart, Berlin, München</li>
+				<li>Individuelle Softwarelösungen für</li>
+				<ul>
+					<li>Industrie</li>
+					<li>Öffentliche Verwaltungen</li>
+				</ul>
+				<li>Entwicklung, Schulung, Consulting</li>
+				<li>Team Umwelt / GIS</li>
+				<ul>
+					<li>u.a. Webmapping u. GDI auf Open Source Basis</li>
+					<li>GeoExt, OpenLayers, GeoServer, etc.</li>
+				</ul>
+
+			</ul>
+			<img src="./resources/img/isb-logo.png" class="sideimage-right"
+				alt="Logo ISB AG">
+		</div>
+
+		<div class="slide" id="geoext-overview">
+			<h2>GeoExt</h2>
+			<ul>
+				<li>JS-Framework für anspruchsvolle Webmapping-Anwendungen</li>
+				<li>Basiert auf OpenLayers und ExtJS</li>
+				<li>Vereinigt Vorteile der Basisbibliotheken</li>
+				<li>Erweitert ExtJS um räumliche Komponenten</li>
+				<li>"Rich Web Mapping Interfaces"</li>
+				<li>OpenSource (BSD, Ausnahme der Fa. Sencha), &copy; OSGeo</li>
+				<li><a
+					href="https://github.com/geoext/geoext/commit/e345b6b4c6f78dc1da27de67672ca425f3074f74">Erster
+						Commit</a> am 25. März 2009</li>
+			</ul>
+		</div>
+
+		<div class="slide" id="geoext2-background">
+			<h2>Hintergrund GeoExt 2</h2>
+			<ul>
+				<li>GeoExt 1.x basiert auf OL 2 und ExtJS 3.x</li>
+				<li>2011: ExtJS-Version 4 kam auf den Markt</li>
+				<li>Viele Verbesserungen u. weitreichendere Möglichkeiten</li>
+				<li>Kompatibilität von GeoExt zu ExtJS 4 wurde notwendig</li>
+				<li>Internationaler Codesprint</li>
+				<ul>
+					<li>April 2012 in Bonn, Dauer: 1 Woche</li>
+					<li>20 Teilnehmer aus aller Welt</li>
+					<li>Gefördert duch <a
+						href="https://github.com/geoext/geoext2/wiki/GeoExt-2-Code-Sprint#wiki-sponsors">Sponsoren</a></li>
+					<li>Ziel: Herstellung Kompatibilität von GeoExt zu ExtJS 4</li>
+					<li>Ergebnis</li>
+					<ul>
+						<li>1. ALPHA-Release</li>
+						<li>Komplett neue API-Dokumentation</li>
+						<li>Öffentliche Beispiele</li>
+					</ul>
+				</ul>
+			</ul>
+		</div>
+
+		<div class="slide" id="geoext2-codesprint-img">
+			<img src="./resources/img/codesprint.png" alt="Codesprint">
+		</div>
+
+		<div class="slide" id="geoext2-news-title">
+			<h1>Neuerungen / Vorteile von GeoExt 2</h1>
+		</div>
+
+		<div class="slide" id="geoext2-mvc-1">
+			<h2>Integration in den ExtJS MVC Architekturansatz</h2>
+		</div>
+		<div class="slide" id="geoext2-mvc-2">
+			<!-- <iframe src="./resources/ext-iframes/third.html" class="aside-right"></iframe> -->
+			<iframe
+				src="./resources/geoext2-2.0.0/examples/app/simple/simple.html"
+				width="90%" height="600" frameborder="0"></iframe>
+		</div>
+
+		<!-- TODO Karte -->
+		<div class="slide" id="geoext2-example-1">
+			<!-- <iframe src="./resources/ext-iframes/third.html" class="aside-right"></iframe> -->
+			<iframe
+				src="./resources/geoext2-2.0.0/examples/mappanel/mappanel.html"
+				width="90%" height="600" frameborder="0"></iframe>
+		</div>
+		<!-- TODO Capabilities Grid -->
+		<div class="slide" id="geoext2-example-2">
+			<!-- <iframe src="./resources/ext-iframes/third.html" class="aside-right"></iframe> -->
+			<iframe
+				src="./resources/geoext2-2.0.0/examples/wmscapabilities/wmscapabilities.html"
+				width="90%" height="600" frameborder="0"></iframe>
+		</div>
+		<!-- TODO Tree Legend -->
+		<div class="slide" id="geoext2-example-3">
+			<!-- <iframe src="./resources/ext-iframes/third.html" class="aside-right"></iframe> -->
+			<iframe
+				src="./resources/geoext2-2.0.0/examples/tree/tree-legend.html"
+				width="90%" height="600" frameborder="0"></iframe>
+		</div>
+
+
+		<div class="slide" id="geoext2-build-tools-1">
+			<h2>Kompatibilität mit den Build-Tools von Sencha</h2>
+			Ein Screenshot von von einer index.html als code + filesize
+		</div>
+
+		<div class="slide" id="geoext2-apidocs-1">
+			<h2>Verbesserte API-Dokumentation und Präsentation</h2>
+		</div>
+		<div class="slide" id="geoext2-apidocs-2">
+			<!-- <iframe src="./resources/ext-iframes/third.html" class="aside-right"></iframe> -->
+			<iframe
+				src="./resources/geoext2-2.0.0/geoext2-gh-pages/docs-w-ext/index.html"
+				width="90%" height="600" frameborder="0"></iframe>
+		</div>
+
+
+		<div class="slide" id="geoext2-theming-1">
+			<h2>Einfachere grafische Ausgestaltung der Anwendungen</h2>
+		</div>
+
+		<!-- TODO workshop Ergebnis mit Style switcher -->
+		<div class="slide" id="geoext2-theming-2">
+			<!-- <iframe src="./resources/ext-iframes/third.html" class="aside-right"></iframe> -->
+			<iframe
+				src="./resources/geoext2-2.0.0/examples/app/simple/simple.html"
+				width="90%" height="600" frameborder="0"></iframe>
+		</div>
+
+		<div class="slide" id="geoext2-future-title">
+			<h2>Zukünftige Entwicklung</h2>
+
+			<img src="./resources/img/ol3-logo.png" alt="OpenLayers 3"> <img
+				src="./resources/img/leaflet-logo.png" alt="Leaflet"> <img
+				src="./resources/img/Back_to_the_Future_film_series_logo.png"
+				class="geoext2-future-title-centerimage" alt="Zurück in die Zukunft">
+
+			<img src="./resources/img/extjs-text.png"
+				class="geoext2-future-title-centerimage" alt="ExtJS">
+		</div>
+		
+		<div class="slide" id="geoext2-future-1">
+			<h2>Upgrade ExtJS 5</h2>
+			<ul>
+				<li>ExtJS 5 voraussichtlich in 2014 veröffentlicht</li>
+				<li>Upgrade von GeoExt auf ExtJS 5 ?</li>
+				<ul>
+					<li>Laut Sencha-Forum <a href="http://www.sencha.com/forum/showthread.php?254379-EXTJS-5.x-inprogess&p=1015311&viewfull=1#post1015311">keine drastischen API-Änderungen</a> (im Vergleich zu 3.x -> 4.x)</li>
+					<li>Codesprint?</li>
+					<li>Finanzierung?</li>
+				</ul>
+				<li>Probleme</li>
+					<ul>
+						<li>OpenLayers 2 wurde beim Upgrade auf GeoExt 2 nicht angetastet (nur Minor-Upgrades)</li>
+						<li>Ist OpenLayers 2 noch zeitgemäß?</li>
+						<li>Was ist mit OpenLayers 3?</li>
+						<li>Was ist mit Leaflet?</li>
+					</ul>
+			</ul>
+		</div>
+
+		<div class="slide" id="geoext2-future-2">
+			<h2>Unterstützung Multipler Mapping-Bibliotheken</h2>
+			<ul>
+				<li>2013, FOSSGIS Codesprint: Erste Schritte:</li>
+					<ul>
+						<li>Untersuchung der Thematik</li>
+						<li>Entwicklung eines Konzepts zur Entkopplung von GeoExt2 und der zugrundeligenden Kartenbibliothek</li>
+						<li>Prototypische Umsetzung für die MapPanel-Klasse</li>
+						<li>Dokumentation der Ergebnisse</li>
+					</ul>
+				<li>Probleme</li>
+					<ul>
+						<li>Welchen Bedarf gibt es für eine solche Architektur?</li>
+						<li>Format-Parser-Klassen von OL</li>
+						<li>Finanzierung</li>
+					</ul>
+				<li>Thema auf der GeoExt-Mailing-Liste</li>
+			</ul>
+			<img src="./resources/img/geoext-leaflet.png"
+				alt="GeoExt mit Leaflet">
+		</div>
+
+		<!-- End slides. -->
+
+		<!-- Begin extension snippets. Add or remove as needed. -->
+
+		<!-- deck.navigation snippet -->
+		<div aria-role="navigation">
+			<a href="#" class="deck-prev-link" title="Previous">&#8592;</a> <a
+				href="#" class="deck-next-link" title="Next">&#8594;</a>
+		</div>
+
+		<!-- deck.status snippet -->
+		<p class="deck-status" aria-role="status">
+			<span class="deck-status-current"></span> / <span
+				class="deck-status-total"></span>
+		</p>
+
+		<!-- deck.goto snippet -->
+		<form action="." method="get" class="goto-form">
+			<label for="goto-slide">Go to slide:</label> <input type="text"
+				name="slidenum" id="goto-slide" list="goto-datalist">
+			<datalist id="goto-datalist"></datalist>
+			<input type="submit" value="Go">
+		</form>
+
+		<!-- End extension snippets. -->
+	</div>
+
+	<!-- Required JS files. -->
+	<script src="resources/deck.js-latest/jquery.min.js"></script>
+	<script src="resources/deck.js-latest/core/deck.core.js"></script>
+
+	<!-- Extension JS files. Add or remove as needed. -->
+	<script src="resources/deck.js-latest/extensions/menu/deck.menu.js"></script>
+	<script src="resources/deck.js-latest/extensions/goto/deck.goto.js"></script>
+	<script src="resources/deck.js-latest/extensions/status/deck.status.js"></script>
+	<script
+		src="resources/deck.js-latest/extensions/navigation/deck.navigation.js"></script>
+	<script src="resources/deck.js-latest/extensions/scale/deck.scale.js"></script>
+
+	<!-- Initialize the deck. You can put this in an external file if desired. -->
+	<script>
+  $(function() {
+    $.deck('.slide');
+  });
+</script>
+</body>
+</html>
