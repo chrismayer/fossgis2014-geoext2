@@ -4,9 +4,10 @@ h2 {
 }
 
 .slide {
-	background-image: url("../img/isb-logo.png");
+	background-image: url("../img/isb-logo.png"),  url("../img/terrestris-logo.png");
+	background-size: auto auto, 70px auto;
 	background-repeat: no-repeat;
-	background-position: 95% 99%;
+	background-position: 88% 99%, 95% 98.5%;
 }
 
 a, a:active, a:visited {
