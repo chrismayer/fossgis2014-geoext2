@@ -38,7 +38,7 @@ Ext.application({
         // create a new WMS capabilities store
         store = Ext.create('GeoExt.data.WmsCapabilitiesStore', {
             storeId: 'wmscapsStore',
-            url: "../data/wmscap.xml",
+            url: "../data/suite.xml",
             autoLoad: true
         });
     
