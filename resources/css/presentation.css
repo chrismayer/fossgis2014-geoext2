@@ -41,6 +41,10 @@ a:hover, a:focus {
 	right: 0;
 }
 
+.example-iframe {
+	margin-top: 20px;
+}
+
 pre {
 	white-space: pre;
 	white-space: pre-wrap;
